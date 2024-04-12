@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Section IDs -->
+    <item name="addition_section" type="id" />
+    <item name="multiplication_section" type="id" />
+    <item name="counting_section" type="id" />
+    <item name="subtraction_section" type="id" />
+    <item name="division_section" type="id" />
+    <item name="geometry_section" type="id" />
+    <item name="fractions_section" type="id" />
+
+    <!-- RadioGroup and RadioButton IDs for each section -->
+    <item name="additionRadioGroup" type="id" />
+    <item name="additionRadioButton1" type="id" />
+    <item name="additionRadioButton2" type="id" />
+    <item name="additionRadioButton3" type="id" />
+    <item name="multiplicationRadioGroup" type="id" />
+    <item name="multiplicationRadioButton1" type="id" />
+    <item name="multiplicationRadioButton2" type="id" />
+    <item name="multiplicationRadioButton3" type="id" />
+    <item name="countingRadioGroup" type="id" />
+    <item name="countingRadioButton1" type="id" />
+    <item name="countingRadioButton2" type="id" />
+    <item name="countingRadioButton3" type="id" />
+    <item name="subtractionRadioGroup" type="id" />
+    <item name="subtractionRadioButton1" type="id" />
+    <item name="subtractionRadioButton2" type="id" />
+    <item name="subtractionRadioButton3" type="id" />
+    <item name="divisionRadioGroup" type="id" />
+    <item name="divisionRadioButton1" type="id" />
+    <item name="divisionRadioButton2" type="id" />
+    <item name="divisionRadioButton3" type="id" />
+    <item name="geometryRadioGroup" type="id" />
+    <item name="geometryRadioButton1" type="id" />
+    <item name="geometryRadioButton2" type="id" />
+    <item name="geometryRadioButton3" type="id" />
+    <item name="fractionsRadioGroup" type="id" />
+    <item name="fractionsRadioButton1" type="id" />
+    <item name="fractionsRadioButton2" type="id" />
+    <item name="fractionsRadioButton3" type="id" />
+
+    <!-- Answer Button IDs for each section -->
+    <item name="additionAnswerButton" type="id" />
+    <item name="multiplicationAnswerButton" type="id" />
+    <item name="countingAnswerButton" type="id" />
+    <item name="subtractionAnswerButton" type="id" />
+    <item name="divisionAnswerButton" type="id" />
+    <item name="geometryAnswerButton" type="id" />
+    <item name="fractionsAnswerButton" type="id" />
+</resources>

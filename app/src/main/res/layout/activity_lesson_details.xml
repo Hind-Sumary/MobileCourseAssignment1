@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Addition section -->
+    <LinearLayout
+        android:id="@+id/addition_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/additionTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="Addition" />
+        <TextView
+            android:id="@+id/additionExplanationTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_margin="10dp"
+            android:text=" Addition is like putting things together. Imagine you have some apples, and then you get more apples. When you add them, you count how many apples you have in total. For example, if you have 3 apples and get 2 more, you count 3 + 2 to find out you now have 5 apples in all!" />
+        <TextView
+            android:id="@+id/additionQuestionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:text="Question : There are 5 birds on a tree. 2 more birds join them. How many birds are there in total?" />
+        <RadioGroup
+            android:id="@+id/additionRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/additionRadioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:text="7" />
+            <RadioButton
+                android:id="@+id/additionRadioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:text="9" />
+            <RadioButton
+                android:id="@+id/additionRadioButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:text="6" />
+        </RadioGroup>
+        <Button
+            android:id="@+id/additionAnswerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="Answer!" />
+    </LinearLayout>
+
+    <!-- Multiplication section -->
+    <LinearLayout
+        android:id="@+id/multiplicationSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/multiplicationTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="Multiplication" />
+        <TextView
+            android:id="@+id/multiplicationExplanationTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_margin="10dp"
+            android:text="Multiplication is like adding lots of numbers quickly. Instead of saying 2 + 2 + 2 + 2 to find out what 2 times 4 is, you just say 2 x 4 and know the answer is 8." />
+        <TextView
+            android:id="@+id/multiplicationQuestionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:text="Question : There are 4 rows of chairs in a classroom, with 2 chairs in each row. How many chairs are there in total?" />
+        <RadioGroup
+            android:id="@+id/multiplicationRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/multiplicationRadioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:text="2" />
+            <RadioButton
+                android:id="@+id/multiplicationRadioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:text="8" />
+            <RadioButton
+                android:id="@+id/multiplicationRadioButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:text="4" />
+        </RadioGroup>
+        <Button
+            android:id="@+id/multiplicationAnswerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="Answer!" />
+    </LinearLayout>
+
+    <!-- Counting section -->
+    <LinearLayout
+        android:id="@+id/countingSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/countingTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="Counting" />
+        <TextView
+            android:id="@+id/countingExplanationTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_margin="10dp"
+            android:text="Counting is when you say numbers in order to find out how many things there are. It's like counting how many friends are in a game or how many cookies are on a plate. You start with 1, then 2, then 3, and so on, until you reach the right number." />
+        <TextView
+            android:id="@+id/countingQuestionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:text="Question : How many fingers are in both of your hands?" />
+        <RadioGroup
+            android:id="@+id/countingRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/countingRadioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:text="10" />
+            <RadioButton
+                android:id="@+id/countingRadioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:text="7" />
+            <RadioButton
+                android:id="@+id/countingRadioButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:text="4" />
+        </RadioGroup>
+        <Button
+            android:id="@+id/countingAnswerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="Answer!" />
+    </LinearLayout>
+
+    <!-- Subtraction section -->
+    <LinearLayout
+        android:id="@+id/subtractionSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/subtractionTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="Subtraction" />
+        <TextView
+            android:id="@+id/subtractionExplanationTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_margin="10dp"
+            android:text="Subtraction is like taking things away. If you have a bunch of toys and you want to see how many you have left after giving some to a friend, you use subtraction. For instance, if you had 8 toys and gave away 3, you count 8 - 3 to see you have 5 toys left." />
+        <TextView
+            android:id="@+id/subtractionQuestionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:text="Question : Emily had 8 cookies. She ate 3 cookies. How many cookies does she have left?" />
+        <RadioGroup
+            android:id="@+id/subtractionRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/subtractionRadioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:text="5" />
+            <RadioButton
+                android:id="@+id/subtractionRadioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:text="8" />
+            <RadioButton
+                android:id="@+id/subtractionRadioButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:text="1" />
+        </RadioGroup>
+        <Button
+            android:id="@+id/subtractionAnswerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="Answer!" />
+    </LinearLayout>
+
+    <!-- Division section -->
+    <LinearLayout
+        android:id="@+id/divisionSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/divisionTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="Division" />
+        <TextView
+            android:id="@+id/divisionExplanationTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_margin="10dp"
+            android:text="Division is like sharing things equally. If you have 8 candies and want to share them equally among 4 friends, you use division. You count 8 ÷ 4 to see each friend gets 2 candies." />
+        <TextView
+            android:id="@+id/divisionQuestionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:text="Question : Sarah has 15 stickers, and she wants to divide them equally among 3 folders. How many stickers will be in each folder?" />
+        <RadioGroup
+            android:id="@+id/divisionRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/divisionRadioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:text="2" />
+            <RadioButton
+                android:id="@+id/divisionRadioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:text="5" />
+            <RadioButton
+                android:id="@+id/divisionRadioButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:text="3" />
+        </RadioGroup>
+        <Button
+            android:id="@+id/divisionAnswerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="Answer!" />
+    </LinearLayout>
+
+    <!-- Geometry section -->
+    <LinearLayout
+        android:id="@+id/geometrySection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/geometryTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="Geometry" />
+        <TextView
+            android:id="@+id/geometryExplanationTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_margin="10dp"
+            android:text="Geometry is all about shapes and sizes. You learn about circles, squares, triangles, and more. For example, you might learn that a circle is round like a ball, or a square has four equal sides." />
+        <TextView
+            android:id="@+id/geometryQuestionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:text="Question : Which shape has three sides and three vertices?" />
+        <RadioGroup
+            android:id="@+id/geometryRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/geometryRadioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:text="Circle ◯" />
+            <RadioButton
+                android:id="@+id/geometryRadioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:text="Square □" />
+            <RadioButton
+                android:id="@+id/geometryRadioButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:text="Triangle △" />
+        </RadioGroup>
+        <Button
+            android:id="@+id/geometryAnswerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="Answer!" />
+    </LinearLayout>
+
+    <!-- Fractions section -->
+    <LinearLayout
+        android:id="@+id/fractionsSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/fractionsTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="Fractions" />
+        <TextView
+            android:id="@+id/fractionsExplanationTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_margin="10dp"
+            android:text="Fractions are like pieces of a whole thing. Imagine you have a pizza and you cut it into slices. Each slice is a fraction of the whole pizza. If you have 1 out of 4 slices, you have 1/4 of the pizza." />
+        <TextView
+            android:id="@+id/fractionsQuestionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:text="Question : What fraction of a circle is shaded if half of it is colored?" />
+        <RadioGroup
+            android:id="@+id/fractionsRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/fractionsRadioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:text="1/2" />
+            <RadioButton
+                android:id="@+id/fractionsRadioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:text="1/4" />
+            <RadioButton
+                android:id="@+id/fractionsRadioButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:text="3/4" />
+        </RadioGroup>
+        <Button
+            android:id="@+id/fractionsAnswerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="Answer!" />
+    </LinearLayout>
+
+</RelativeLayout>
