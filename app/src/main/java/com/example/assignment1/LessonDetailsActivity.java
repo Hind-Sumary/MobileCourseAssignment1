@@ -247,7 +247,7 @@ public class LessonDetailsActivity extends AppCompatActivity {
             if (selectedId != -1) {
                 RadioButton radioButton = findViewById(selectedId);
                 String answer = radioButton.getText().toString();
-                if (answer.equals("Triangle")) {
+                if (answer.equals("Triangle △")) {
                     showToast("Correct answer!");
                 } else {
                     showToast("Incorrect answer. Try again!");
